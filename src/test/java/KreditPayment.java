@@ -8,7 +8,7 @@ public class KreditPayment {
             int a = 10000;
 
                     int percent = percentage(10000,2);
-                        System.out.println("Amount of percent for the credit in ($): " + percent);
+                        System.out.println("Amount of percent for the credit in ($): !1" + percent);
 
 
                     int sum = total(percent,a);
