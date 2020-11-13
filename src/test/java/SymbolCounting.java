@@ -4,15 +4,12 @@ public class SymbolCounting {
     @Test
 
     public void symbolCount(){
-               String string="Java1234   1234";
-               System.out.println("Symbols in string: " + string.length());
+               String string="Hello Corona and Goodbye!";
+               System.out.println("The number of symbols in string: " + string.length());
 
+        String[] parts = string.split(" ");
+        int wordcount = parts.length;
+        System.out.println("The number of words in string: " +wordcount);
 
-        System.out.println(countwords("Hallo corona and goodbye !!!!"));
-
-    }
-    public static int countwords(final String phrase) {
-        return phrase.replaceAll("[^\\p{Alpha}]+", " ").trim().split(" ").length;
 }
-
 }
