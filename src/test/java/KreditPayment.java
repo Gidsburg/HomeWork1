@@ -6,7 +6,7 @@ public class KreditPayment {
         public void Credit() {
 
             int a = 956872; // Credit amount.
-            int b = 4;     // Interest rate.f
+            int b = 4;     // Interest rate.
 
             System.out.println("Body of the credit: " +a +"$");
 
